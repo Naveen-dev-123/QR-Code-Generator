@@ -1,0 +1,139 @@
+*{
+  background-color: black;
+  color: white;
+}
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+
+}
+h1{
+  text-align: center;
+  color: gold;
+  text-decoration: 5px solid underline;
+ 
+}
+.flex1{
+ display: flex;
+ flex-direction: column;
+ /* justify-content: center; */
+ align-items: center;
+ border: 2px solid black;
+ margin: 30px;
+ padding: 30px;
+ background-color: white;
+ width: 300px;
+ height: 300px;
+ 
+}
+
+.flex2{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  margin: 30px;
+  padding: 30px;
+  background-color: white;
+  width: 300px;
+  height: 300px;
+ }
+
+ .flex3{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  margin: 30px;
+  padding: 30px;
+  background-color: white;
+  width: 300px;
+  height: 300px;
+ }
+
+
+#link-input,#fileName{
+  width: 300px;
+background-color: white;
+color: black;
+height: 45px;
+font-size: large;
+border: 2px solid red;
+font-weight: bolder;
+}
+::-webkit-input-placeholder {
+  text-align: center;
+}
+
+input:focus {
+  outline: none !important;
+  border: 2px solid red;
+}
+
+
+
+button{
+  width: 100px;
+  height: 36px;
+  border-radius: 10px;
+  font-size: large;
+  color: gold;
+}
+a{
+ 
+  text-align: center;
+  width: 100px;
+  height: 36px;
+  border-radius: 10px;
+  font-size: large;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: gold;
+}
+
+h3{
+  color: brown;
+  background: transparent;
+  text-decoration: underline;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-width: 600px) 
+{
+
+  
+  .App{
+  
+    display: flex;
+    flex-direction: column;
+    
+  }
+  h1{
+    margin-top: 35px;
+  }
+  
+
+  
+}
+/* @media only screen and (min-width: 600px) {
+  .App{
+    display: flex;
+    flex-direction: row;
+  }
+  
+} */
+
