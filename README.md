@@ -1,4 +1,27 @@
-# Getting Started with Create React App
+# QR Code Generator
+
+It is a website-based QR code generator that makes use of React JS. It assists you in converting your data into QR Codes and enables speedy data retrieval via QR Code scanning. For creating QR Code,here am using QRcode npm package. Both PCs and mobile devices can access the website with ease. Using this website, links or any other text can be transformed to QR Codes.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Package which is used in this project :
+
+npm install -g qrcode
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Highlights :
+
+Works on server and client (and react native with svg)
+CLI utility
+Save QR code as image
+Support for Numeric, Alphanumeric and Byte mode
+Support for mixed modes
+Support for chinese, cyrillic, greek and japanese characters
+Support for multibyte characters (like emojis 😄)
+Auto generates optimized segments for best data compression and smallest QR Code size
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
