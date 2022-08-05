@@ -1,14 +1,16 @@
 # QR Code Generator
 
-It is a website-based QR code generator that makes use of React JS. It assists you in converting your data into QR Codes and enables speedy data retrieval via QR Code scanning. For creating QR Code,here am using QRcode npm package. Both PCs and mobile devices can access the website with ease. Using this website, links or any other text can be transformed to QR Codes.
+It is a website-based QR code generator that makes use of React JS. It assists you in converting your data into QR Codes and enables speedy data retrieval via QR Code scanning. For creating QR Code,here am using QRcode npm package. Both PCs and mobile devices can access the website with ease. Using this website, links or any other text can be transformed to QR Codes. The project was hosted by Netlify.
+
+### Demo : https://qrcodegeneratorreact.netlify.app/
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Package which is used in this project :
 
-npm install -g qrcode
+### npm install -g qrcode
 
-Reference Link : https://www.npmjs.com/package/qrcode
+#### Reference Link : https://www.npmjs.com/package/qrcode
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
