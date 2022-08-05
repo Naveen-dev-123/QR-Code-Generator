@@ -8,6 +8,8 @@ Package which is used in this project :
 
 npm install -g qrcode
 
+Reference Link : https://www.npmjs.com/package/qrcode
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Highlights :
